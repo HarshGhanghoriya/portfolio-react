@@ -1,6 +1,9 @@
 import Avatar1 from '../../assets/avatar1.jpg'
-import Avatar2 from '../../assets/avatar1.jpg'
-import Avatar3 from '../../assets/avatar1.jpg'
+import Avatar2 from '../../assets/avatar2.jpg'
+import Avatar3 from '../../assets/avatar3.jpg'
+import Avatar4 from '../../assets/avatar4.jpg'
+import Avatar5 from '../../assets/avatar5.jpg'
+import Avatar6 from '../../assets/avatar6.jpg'
 
 const data=[
     {
@@ -23,7 +26,29 @@ const data=[
         avatar: Avatar3,
         name: 'Arunendra Singh',
         profession: 'Associate Manager, TutorBin'
+    },
+    {
+        id:4,
+        quote: 'I had the pleasure to manage my formar employee and friend Jitesh, who is an exception team player one could ask for. He take pride in his work and consistently strive for perfection. Jitesh is a proactive problem solver, never hesitating to tackle challenges head-on and find innovative solutions. His ability to collaborate with cross-functional teams and communicate effectively ensured successful project outcomes.',
+        avatar: Avatar4,
+        name: 'Arunendra Singh',
+        profession: 'Associate Manager, TutorBin'
+    },
+    {
+        id:5,
+        quote: 'I had the pleasure to manage my formar employee and friend Jitesh, who is an exception team player one could ask for. He take pride in his work and consistently strive for perfection. Jitesh is a proactive problem solver, never hesitating to tackle challenges head-on and find innovative solutions. His ability to collaborate with cross-functional teams and communicate effectively ensured successful project outcomes.',
+        avatar: Avatar5,
+        name: 'Arunendra Singh',
+        profession: 'Associate Manager, TutorBin'
+    },
+    {
+        id:6,
+        quote: 'I had the pleasure to manage my formar employee and friend Jitesh, who is an exception team player one could ask for. He take pride in his work and consistently strive for perfection. Jitesh is a proactive problem solver, never hesitating to tackle challenges head-on and find innovative solutions. His ability to collaborate with cross-functional teams and communicate effectively ensured successful project outcomes.',
+        avatar: Avatar6,
+        name: 'Arunendra Singh',
+        profession: 'Associate Manager, TutorBin'
     }
+
 ]
 
 export default data;
