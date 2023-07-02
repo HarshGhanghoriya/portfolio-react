@@ -3,9 +3,9 @@ import contacts from './data'
 
 const Contact = () => {
   return (
-    <section>
+    <section  id='contact'>
       <h2>Get In Touch</h2>
-      <p>Feel free to shoot me a message via any of the links below! I would love to get connected with you</p>
+      <p>Feel free to shoot me a message via any of the links below! I would love to connect with you</p>
       <div className="container contact-container">
         {contacts.map((contact)=>(
           <a href={contact.link} key={contact.key} target='_blank' rel='noopener noreferrer'>{contact.icon}</a>
