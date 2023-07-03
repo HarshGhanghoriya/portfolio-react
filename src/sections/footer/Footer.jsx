@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="container footer-container">
         <ul className="nav-menu">
           {links.map((fLink) => (
-            <li>
-              <a href={fLink.link} key={fLink.id}>
+            <li key={fLink.id}>
+              <a href={fLink.link}>
                 {fLink.title}
               </a>
             </li>

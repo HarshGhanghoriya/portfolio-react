@@ -9,7 +9,9 @@ import Footer from "./sections/footer/Footer"
 import FloatingNav from "./sections/floating-nav/FloatingNav"
 import Portfolio from "./sections/portfolio/Portfolio"
 
+
 function App() {
+
   return (
     <main>
         <Navbar/>
