@@ -10,12 +10,16 @@ import FloatingNav from "./sections/floating-nav/FloatingNav"
 import Portfolio from "./sections/portfolio/Portfolio"
 import Modal from "./components/Modal"
 import Theme from "./theme/Theme"
+import { useThemeContext } from "./context/theme-context"
+
 
 
 function App() {
+  
+  const {themeState} = useThemeContext();
 
   return (
-    <main >
+    <main className={`${themeState.primary} ${themeState.background}`}>
         <Navbar/>
         <Header/>
         <About/>
