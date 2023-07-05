@@ -8,12 +8,14 @@ import Contact from "./sections/contact/Contact"
 import Footer from "./sections/footer/Footer"
 import FloatingNav from "./sections/floating-nav/FloatingNav"
 import Portfolio from "./sections/portfolio/Portfolio"
+import Modal from "./components/Modal"
+import Theme from "./theme/Theme"
 
 
 function App() {
 
   return (
-    <main>
+    <main >
         <Navbar/>
         <Header/>
         <About/>
@@ -24,6 +26,7 @@ function App() {
         <Contact/>
         <Footer/>
         <FloatingNav/>
+        <Theme/>
     </main>
   )
 }
