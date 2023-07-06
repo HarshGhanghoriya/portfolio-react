@@ -12,7 +12,7 @@ const ProjectsCategories = ({categories, filterProjectHandler}) => {
   return (
     <div className='portfolio-categories'>
         {categories.map((category)=>(
-            <CategoryButton category={category} key={category} className={`btn cat-btn ${activeCategory==category?'primary':'white'}`} onChangeCategory={changeCategoryHandler}/>
+            <CategoryButton category={category} key={category} className={`btn cat-btn ${activeCategory==category?'primary':'light'}`} onChangeCategory={changeCategoryHandler}/>
         ))}
     </div>
   )

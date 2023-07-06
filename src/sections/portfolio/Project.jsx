@@ -3,14 +3,14 @@ import Card from '../../components/Card';
 
 const Project = ({project}) => {
   return (
-    <Card className="portfolio-project">
+    <Card className="portfolio-project light">
         <div className="portfolio-project-image">
             <img src={project.image} alt="Portfolio Projects" className='img' />
         </div>
         <h4>{project.title}</h4>
         <p>{project.desc}</p>
         <div className="portfolio-project-cta">
-            <a href={project.demo} className='btn sm' target='_blank' rel='noopener noreferrer'>Demo</a>
+            <a href={project.demo} className='btn white' target='_blank' rel='noopener noreferrer'>Demo</a>
             <a href={project.github} className='btn sm primary' target='_blank' rel='noopener noreferrer'>Github</a>
         </div>
     </Card>

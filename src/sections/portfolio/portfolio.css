@@ -64,6 +64,11 @@
 
 }
 
+.portfolio-project:hover .btn.white{
+    background: var(--color-primary);
+    color: white;
+}
+
 .portfolio-project:hover .btn.sm.primary{
     background: transparent;
     color: var(--color-primary);

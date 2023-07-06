@@ -23,10 +23,8 @@ function App() {
         <Navbar/>
         <Header/>
         <About/>
-        <Services/>
         <Portfolio/>
         <Testimonials/>
-        <FAQs/>
         <Contact/>
         <Footer/>
         <FloatingNav/>

@@ -22,33 +22,25 @@ const data=[
     },
     {
         id:3,
-        quote: 'I had the pleasure to manage my formar employee and friend Jitesh, who is an exception team player one could ask for. He take pride in his work and consistently strive for perfection. Jitesh is a proactive problem solver, never hesitating to tackle challenges head-on and find innovative solutions. His ability to collaborate with cross-functional teams and communicate effectively ensured successful project outcomes.',
+        quote: 'I had the pleasure to manage my formar employee and friend Jitesh, who is an exception team player one could ask for. He take pride in his work and consistently strive for perfection.',
         avatar: Avatar3,
         name: 'Arunendra Singh',
         profession: 'Associate Manager, TutorBin'
     },
     {
         id:4,
-        quote: 'I had the pleasure to manage my formar employee and friend Jitesh, who is an exception team player one could ask for. He take pride in his work and consistently strive for perfection. Jitesh is a proactive problem solver, never hesitating to tackle challenges head-on and find innovative solutions. His ability to collaborate with cross-functional teams and communicate effectively ensured successful project outcomes.',
+        quote: 'Jitesh is a proactive problem solver, never hesitating to tackle challenges head-on and find innovative solutions. His ability to collaborate with cross-functional teams and communicate effectively ensured successful project outcomes.',
         avatar: Avatar4,
-        name: 'Arunendra Singh',
-        profession: 'Associate Manager, TutorBin'
+        name: 'Akash Dudi',
+        profession: 'SDE2 Intuit'
     },
     {
         id:5,
-        quote: 'I had the pleasure to manage my formar employee and friend Jitesh, who is an exception team player one could ask for. He take pride in his work and consistently strive for perfection. Jitesh is a proactive problem solver, never hesitating to tackle challenges head-on and find innovative solutions. His ability to collaborate with cross-functional teams and communicate effectively ensured successful project outcomes.',
+        quote: 'I have no doubt that Jitesh will continue to thrive as a React developer and make significant contributions to any team or project he is a part of. I wholeheartedly recommend Jitesh for any React development role and believe that he will be a valuable asset to any organization lucky enough to have him on board.',
         avatar: Avatar5,
-        name: 'Arunendra Singh',
-        profession: 'Associate Manager, TutorBin'
+        name: 'Neha',
+        profession: 'Developer TCS'
     },
-    {
-        id:6,
-        quote: 'I had the pleasure to manage my formar employee and friend Jitesh, who is an exception team player one could ask for. He take pride in his work and consistently strive for perfection. Jitesh is a proactive problem solver, never hesitating to tackle challenges head-on and find innovative solutions. His ability to collaborate with cross-functional teams and communicate effectively ensured successful project outcomes.',
-        avatar: Avatar6,
-        name: 'Arunendra Singh',
-        profession: 'Associate Manager, TutorBin'
-    }
-
 ]
 
 export default data;

@@ -22,7 +22,7 @@ const Portfolio = () => {
   }
 
   return (
-    <section id="portfolio">
+    <section id="portfolio" >
       <h2>Recent Projects</h2>
       <p>Check out some of the superb projects I recently worked on. Use the buttons to toggle the different categories</p>
       <div className="container portfolio-container">

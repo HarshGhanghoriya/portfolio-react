@@ -4,7 +4,7 @@ import {AiOutlineGithub} from 'react-icons/ai';
 import {AiOutlineTwitter} from 'react-icons/ai';
 
 const socials=[
-    {id:1, link: '', icon: <AiOutlineInstagram/>},
+    {id:1, link: 'https://www.instagram.com/j.shivgan/', icon: <AiOutlineInstagram/>},
     {id:2, link: '', icon: <AiOutlineLinkedin/>},
     {id:3, link: '', icon: <AiOutlineGithub/>},
     {id:4, link: '', icon: <AiOutlineTwitter/>}

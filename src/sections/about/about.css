@@ -21,7 +21,7 @@
 .about-cards{
     margin: 3rem 0 1.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -72,6 +72,29 @@
     }
 }
 
+/* Skills button  */
+.skills-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skill-button{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    background: var(--color-white);
+    color: var(--color-black);
+    padding: 0.6rem 2.5rem;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-2);
+    cursor: pointer;
+    font-size: 3rem;
+}
+
 /* Media Queries for phones  */
 @media screen and (max-width: 600px){
     .about-cards{
@@ -84,5 +107,15 @@
 
     .about-right .btn{
         margin-top: 2rem;
+    }
+
+    .skills-button{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skill-button{
+        padding: 0.6rem 0.8rem;
+        font-size: 3rem;
     }
 }
