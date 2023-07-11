@@ -5,17 +5,16 @@ import {AiOutlineTwitter} from 'react-icons/ai';
 
 const socials=[
     {id:1, link: 'https://www.instagram.com/j.shivgan/', icon: <AiOutlineInstagram/>},
-    {id:2, link: '', icon: <AiOutlineLinkedin/>},
-    {id:3, link: '', icon: <AiOutlineGithub/>},
-    {id:4, link: '', icon: <AiOutlineTwitter/>}
+    {id:2, link: 'https://www.linkedin.com/in/jiteshshivgan/', icon: <AiOutlineLinkedin/>},
+    {id:3, link: 'https://github.com/jiteshshivgan', icon: <AiOutlineGithub/>},
+    {id:4, link: 'https://twitter.com/JSHIVGAN', icon: <AiOutlineTwitter/>}
 ]
 
 const links=[
     {id: 1, link: "#", title: 'Home'},
     {id: 2, link: "#about", title: 'About'},
-    {id: 3, link: "#services", title: 'Services'},
-    {id: 4, link: "#portfolio", title: 'Portfolio'},
-    {id: 5, link: "#contact", title: 'Contact'}
+    {id: 3, link: "#portfolio", title: 'Portfolio'},
+    {id: 4, link: "#contact", title: 'Contact'}
 ]
 
 export {links, socials};

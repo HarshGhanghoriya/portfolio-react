@@ -18,8 +18,8 @@ const Header = () => {
         <div className='header-profile' data-aos='flip-up'>
           <img src={HeaderImage} alt='Header potrait' className='img'></img>
         </div>
-        <h3 data-aos='fade-up'>Jitesh Kumar Shivgan</h3>
-        <p data-aos='fade-up'>A very enthusiastic, proficient <b> Frontend/ReactJS developer </b> who hike mountains during vacations</p>
+        <h3 data-aos='fade-up' >Jitesh Kumar Shivgan</h3>
+        <p data-aos='fade-up' style={{fontFamily: 'cursive'}}>A very enthusiastic, proficient <b> Frontend/ReactJS developer </b> who hike mountains during vacations</p>
         <div className="header-cta" data-aos='fade-up'>
           <a href='#contact' className='btn primary'>Let's Talk</a>
           <a href='#portfolio' className='btn light'>My Work</a>

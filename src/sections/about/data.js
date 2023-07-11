@@ -9,6 +9,7 @@ import {BsGit} from 'react-icons/bs'
 import {SiFirebase} from 'react-icons/si'
 import {TbBrandRedux} from 'react-icons/tb'
 import {TbBrandNpm} from 'react-icons/tb'
+import {IoLogoSass} from 'react-icons/io'
 
 export const data=[
     {id:1, icon: <FaAward/>, title: 'Experience', desc: '6+ months working'},
@@ -24,4 +25,5 @@ export const skills=[
     {id:6, icon: <SiFirebase/>, title: 'Firebase', style: {color: 'rgb(255,203,45)'}},
     {id:7, icon: <TbBrandRedux/>, title: 'Redux', style: {color: 'rgb(119,73,189)'}},
     {id:8, icon: <TbBrandNpm/>, title: 'NPM', style: {color: 'rgb(204,53,52)'}},
+    {id:9, icon: <IoLogoSass/>, title: 'SASS', style: {color: 'rgb(205,103,153)'}},
 ]

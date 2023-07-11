@@ -31,7 +31,7 @@ const About = () => {
           <p> In my free time, you can find me exploring the outdoors, hiking mountains, and seeking inspiration from nature's beauty. I am a <b>certified Mountaineer too </b> from Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports, Manali (H.P) </p>
           <div className="skills-button" data-aos='zoom-in'>
               {
-                skills.map((skill)=><button className="skill-button">
+                skills.map((skill)=><button className="skill-button" key={skill.id}>
                   <span className="skill-icon" style={skill.style}>{skill.icon}</span>
                   <h5>{skill.title}</h5>
                   </button>)

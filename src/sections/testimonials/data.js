@@ -8,7 +8,7 @@ import Avatar6 from '../../assets/avatar6.jpg'
 const data=[
     {
         id:1,
-        quote: ' Without any doubt, wholeheartedly recommend my friend Jitesh as a skilled frontend/ReactJS developer. His commitment to excellence and his ability to create captivating digital experiences make him an invaluable addition to any team',
+        quote: 'I have had the privilege of witnessing Jitesh growth as a frontend developer, and its been truly inspiring. From the moment he started his journey in web development, he displayed a natural talent and an insatiable curiosity for the field. Jitesh has honed his skills over the months and has become a highly proficient frontend developer. ',
         avatar: Avatar1,
         name: 'Satyapal Gupta',
         profession: 'Business Analyst, Bijak'
