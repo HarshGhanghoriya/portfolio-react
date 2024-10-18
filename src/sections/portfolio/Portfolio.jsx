@@ -23,7 +23,7 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio" >
-      <h2>Recent Projects</h2>
+      <h2>Recent Projects (All are in Production Mode)</h2>
       <p>Check out some of the superb projects I recently worked on. Use the buttons to toggle the different categories</p>
       <div className="container portfolio-container">
         <ProjectsCategories categories={uniqueCategories} filterProjectHandler={filterProjectHandler}/>
