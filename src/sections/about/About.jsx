@@ -1,6 +1,6 @@
 import "./about.css";
 import AboutImage from "../../assets/about-me.jpg";
-import CV from "../../assets/CV.pdf";
+import CV from "assets/CV.pdf";
 import { HiDownload } from "react-icons/hi";
 import Card from "../../components/Card";
 import { data, skills } from "./data";

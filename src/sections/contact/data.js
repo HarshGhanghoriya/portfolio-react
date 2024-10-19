@@ -1,7 +1,7 @@
 import { HiOutlineMail } from "react-icons/hi";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
-import CV from "../../assets/CV.pdf";
+import CV from "assets/CV.pdf";
 
 const data = [
   { id: 1, icon: <HiOutlineMail />, link: "mailto:ghanghoriyaharsh@gmail.com" },
