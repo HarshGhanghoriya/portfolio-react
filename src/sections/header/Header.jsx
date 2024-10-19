@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import "./header.css";
 import { useEffect } from "react";
 import { HiDownload } from "react-icons/hi";
-import CV from "../../assets/CV.pdf";
+import CV from "assets/CV.pdf";
 
 const Header = () => {
   useEffect(() => {
